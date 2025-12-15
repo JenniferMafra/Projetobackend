@@ -2,7 +2,7 @@
 import { adicionaCliente, atualizaCliente, deletaCliente, ListaClientes, listaClientesById } from "../controller/cliente-controller.js"
 
 
-export async function RotasClientes(fastify, opt) {
+export async function RotasClientes(fastify) {
 
   const clienteSchema = {
     type: 'object',
